@@ -26,7 +26,7 @@ allprojects {
     }
   }
 }
-
+ 
 // Makes all projects use the same buildDir, more efficient for "expanding archives"
 subprojects {
   project.buildDir = rootProject.buildDir
